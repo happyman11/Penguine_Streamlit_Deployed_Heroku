@@ -5,10 +5,10 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 
 Profile="https://www.rstiwari.com"
-st.markdow(Profile, unsafe_allow_html=True)
+st.markdown(Profile, unsafe_allow_html=True)
 
 Blog="https://tiwari11-rst.medium.com/"
-st.markdow(Blog, unsafe_allow_html=True)
+st.markdown(Blog, unsafe_allow_html=True)
 
 st.write("# Penguin Prediction Application (Random Forest Classifier)")
 
