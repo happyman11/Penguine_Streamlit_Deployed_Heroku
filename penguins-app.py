@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-Profile of Ravi Shekhar Tiwari="https://www.rstiwari.com"
+Ravi Shekhar Tiwari="https://www.rstiwari.com"
 st.markdow(Profile of Ravi Shekhar Tiwari, unsafe_allow_html=True)
 
 Medium Profile="https://tiwari11-rst.medium.com/"
