@@ -4,11 +4,7 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-Profile="https://www.rstiwari.com"
-st.markdown(Profile, unsafe_allow_html=True)
 
-Blog="https://tiwari11-rst.medium.com/"
-st.markdown(Blog, unsafe_allow_html=True)
 
 st.write("# Penguin Prediction Application (Random Forest Classifier)")
 
@@ -79,7 +75,17 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 
-st.write("# iMPORTANT LINKS")
+st.write("# IMPORTANT LINKS")
+
+st.write("## Profile")
+Profile="https://www.rstiwari.com"
+st.markdown(Profile, unsafe_allow_html=True)
+
+st.write("## Blog")
+Blog="https://tiwari11-rst.medium.com/"
+st.markdown(Blog, unsafe_allow_html=True)
+
+st.write("###Dataset Link")
 
 Dataset_Link="https://github.com/allisonhorst/palmerpenguins"
 st.markdown(Dataset_Link, unsafe_allow_html=True)
