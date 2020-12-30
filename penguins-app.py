@@ -4,14 +4,14 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-Ravi Shekhar Tiwari="https://www.rstiwari.com"
-st.markdow(Profile of Ravi Shekhar Tiwari, unsafe_allow_html=True)
+Profile="https://www.rstiwari.com"
+st.markdow(Profile, unsafe_allow_html=True)
 
-Medium Profile="https://tiwari11-rst.medium.com/"
-st.markdow(Medium Profile, unsafe_allow_html=True)
+Blog="https://tiwari11-rst.medium.com/"
+st.markdow(Blog, unsafe_allow_html=True)
 
 st.write("
-# Penguin Prediction Application")
+# Penguin Prediction Application (Random Forest Classifier)")
 
 st.sidebar.header('User Input Features')
 
