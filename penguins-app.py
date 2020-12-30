@@ -10,8 +10,7 @@ st.markdow(Profile, unsafe_allow_html=True)
 Blog="https://tiwari11-rst.medium.com/"
 st.markdow(Blog, unsafe_allow_html=True)
 
-st.write("
-# Penguin Prediction Application (Random Forest Classifier)")
+st.write("# Penguin Prediction Application (Random Forest Classifier)")
 
 st.sidebar.header('User Input Features')
 
