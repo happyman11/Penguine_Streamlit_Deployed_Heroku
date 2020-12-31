@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 
-st.sidebar.header('Penguin Island Prediction Application (Random Forest Classifier)')
+st.header('Penguin Island Prediction Application (Random Forest Classifier)')
 
 st.markdown("""
 Important Links\n
