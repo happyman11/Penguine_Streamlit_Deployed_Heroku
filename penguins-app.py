@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 st.markdown("""
-#Penguin Island Prediction Application (Random Forest Classifier)
+Penguin Island Prediction Application (Random Forest Classifier)
 ## Important Links
 Dataset:https://www.basketball-reference.com
 Profile:https://www.rstiwari.com
