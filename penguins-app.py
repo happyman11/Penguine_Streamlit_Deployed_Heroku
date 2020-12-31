@@ -9,11 +9,11 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 st.markdown("""
-Penguin Island Prediction Application (Random Forest Classifier)
-## Important Links
-Dataset:https://www.basketball-reference.com
-Profile:https://www.rstiwari.com
-Blog: https://tiwari11-rst.medium.com/
+##Penguin Island Prediction Application (Random Forest Classifier)
+Important Links\n
+Dataset:https://www.basketball-reference.com \n
+Profile:https://www.rstiwari.com \n
+Blog: https://tiwari11-rst.medium.com/ \n
 """)
 
 st.sidebar.header('User Input Features')
