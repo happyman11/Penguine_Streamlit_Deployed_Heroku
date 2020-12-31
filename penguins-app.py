@@ -6,10 +6,9 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 
-
+st.sidebar.header('Penguin Island Prediction Application (Random Forest Classifier)')
 
 st.markdown("""
-#Penguin Island Prediction Application (Random Forest Classifier)
 Important Links\n
 Dataset:https://www.basketball-reference.com \n
 Profile:https://www.rstiwari.com \n
