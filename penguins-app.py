@@ -6,7 +6,15 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 
-st.write("# Penguin Prediction Application (Random Forest Classifier)")
+
+
+st.markdown("""
+#Penguin Island Prediction Application (Random Forest Classifier)
+## Important Links
+Dataset:https://www.basketball-reference.com
+Profile:https://www.rstiwari.com
+Blog: https://tiwari11-rst.medium.com/
+""")
 
 st.sidebar.header('User Input Features')
 
@@ -51,7 +59,7 @@ for col in encode:
 df = df[:1] # Selects only the first row (the user input data)
 
 # Displays the user input features
-st.subheader('User Input features')
+st.subheader('User Input features Sample')
 
 if uploaded_file is not None:
     st.write(df)
@@ -75,17 +83,3 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 
-st.write("# IMPORTANT LINKS")
-
-st.write("## Profile")
-Profile="https://www.rstiwari.com"
-st.markdown(Profile, unsafe_allow_html=True)
-
-st.write("## Blog")
-Blog="https://tiwari11-rst.medium.com/"
-st.markdown(Blog, unsafe_allow_html=True)
-
-st.write("###Dataset Link")
-
-Dataset_Link="https://github.com/allisonhorst/palmerpenguins"
-st.markdown(Dataset_Link, unsafe_allow_html=True)
