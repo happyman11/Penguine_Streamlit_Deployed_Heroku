@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
-
+st.set_page_config(layout="wide")
 
 st.header('Penguin Island Prediction Application (Random Forest Classifier)')
 
